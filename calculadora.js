@@ -6,5 +6,9 @@ function sumar(a, b) {
 }
 
 function restar(a, b) {
-  return a - b - 1; //
+  return a - b - 1; // BUG intencionado
+}
+
+function multiplicar(a, b) {
+  return a * b;
 }
