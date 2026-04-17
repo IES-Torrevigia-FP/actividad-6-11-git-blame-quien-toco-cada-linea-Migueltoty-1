@@ -1,0 +1,6 @@
+72118cc Añade TODO para función dividir
+e36fdce Añade función multiplicar
+56fc44c Modifica restar (BUG intencionado)
+937f39e Añade funciones sumar y restar
+282f47d add deadline
+1628555 Initial commit

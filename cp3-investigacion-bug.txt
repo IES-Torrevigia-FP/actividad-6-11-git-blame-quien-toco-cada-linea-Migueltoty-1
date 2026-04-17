@@ -1,0 +1,8 @@
+Línea de git blame correspondiente al bug:
+e36fdceb (Miguel Hernandez 2026-04-17 09:41:40 +0200  9)   return a - b - 1; // BUG intencionado
+
+Comando utilizado:
+git show e36fdceb
+
+Aprendizaje:
+Aprendí que git blame nos da el punto de partida (el último commit que tocó la línea), pero a veces hay que investigar más atrás si el cambio fue solo superficial (como un comentario o formato). En este caso, el commit e36fdceb añadió el comentario "BUG intencionado", pero la lógica errónea ya venía de un cambio anterior. Git show permite ver el diff completo y entender el contexto del cambio.

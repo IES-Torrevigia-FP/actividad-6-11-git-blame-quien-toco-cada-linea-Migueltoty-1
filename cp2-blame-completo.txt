@@ -1,0 +1,12 @@
+Líneas relevantes de git blame calculadora.js:
+
+8) function restar(a, b) {
+9)   return a - b - 1; // BUG intencionado
+15) // TODO: añadir función dividir
+
+Explicación:
+- El hash (p.ej. 937f39e1, e36fdceb) indica el commit que modificó por última vez esa línea.
+- El nombre (Miguel Hernandez) indica el autor del cambio.
+- La fecha y hora muestran cuándo se realizó el commit.
+- El número de línea ayuda a localizar el código en el archivo.
+- El contenido de la línea es lo que está actualmente en el archivo.

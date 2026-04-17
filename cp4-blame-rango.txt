@@ -1,0 +1,6 @@
+937f39e1 (Miguel Hernandez 2026-04-17 08:47:41 +0200  8) function restar(a, b) {
+e36fdceb (Miguel Hernandez 2026-04-17 09:41:40 +0200  9)   return a - b - 1; // BUG intencionado
+e36fdceb (Miguel Hernandez 2026-04-17 09:41:40 +0200 10) }
+
+Explicación:
+Limitar el rango con -L es extremadamente útil en archivos grandes. Permite ignorar el ruido de miles de líneas irrelevantes y centrarse únicamente en el bloque de código que estamos investigando, lo que ahorra tiempo y reduce la carga cognitiva.
